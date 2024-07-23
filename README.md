@@ -89,8 +89,8 @@ Drag a task card from one column and drop it into another to change its stage.
 Searching Tasks
 Use the search bar at the top to filter tasks by title or description. Matching tasks will be displayed as you type.
 ## State Management
-# Redux: The application uses Redux for state management. The state is structured as follows:
-# tasks: An array of task objects, each with id, title, description, and stage.
+Redux: The application uses Redux for state management. The state is structured as follows:
+tasks: An array of task objects, each with id, title, description, and stage.
 ## Reducers and Actions
 addTask: Adds a new task to the To Do column.
 moveTask: Moves a task to a different stage.
@@ -116,24 +116,24 @@ This project is a Kanban board application designed to manage tasks across four 
   - In Progress
   - Peer Review
   - Done
-- **Task display:** Each column displays tasks relevant to that stage.
+Task display:** Each column displays tasks relevant to that stage.
 
 ### Task Cards
-- **Display:** Each task card shows the task title and a shortened task description.
-- **Draggable:** Tasks can be dragged between columns.
+Display:** Each task card shows the task title and a shortened task description.
+Draggable:** Tasks can be dragged between columns.
 
 ### Drag and Drop Functionality
-- **Drag-and-drop:** Move tasks between columns.
-- **Placement:** Tasks can be dragged from one column to any other and placed in the correct position.
+Drag-and-drop:** Move tasks between columns.
+Placement:** Tasks can be dragged from one column to any other and placed in the correct position.
 
 ### Search Functionality
-- **Search bar:** Located at the top of the board.
-- **Filter tasks:** Filter tasks in all columns based on search input.
-- **Dynamic display:** Display matching tasks and hide non-matching tasks as the user types.
+Search bar:** Located at the top of the board.
+Filter tasks:** Filter tasks in all columns based on search input.
+Dynamic display:** Display matching tasks and hide non-matching tasks as the user types.
 
 ### Add New Tasks
-- **Floating button:** Allows creation of new tasks, restricted to the To Do column.
-- **Task creation form:** Includes fields for task title and task description.
+Floating button:** Allows creation of new tasks, restricted to the To Do column.
+Task creation form:** Includes fields for task title and task description.
 
 ### Optional Components
 - Integration with external services.
