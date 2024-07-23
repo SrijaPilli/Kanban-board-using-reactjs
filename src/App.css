@@ -1,0 +1,13 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 16px;
+}
