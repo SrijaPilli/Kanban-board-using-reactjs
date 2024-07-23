@@ -113,30 +113,39 @@ This project is a Kanban board application designed to manage tasks across four 
 ### Kanban Board Layout
 - **Four columns representing task stages:**
   -To Do
+  <br>
   -In Progress
+  <br>
   -Peer Review
+  <br>
   -Done
 Task display:** Each column displays tasks relevant to that stage.
 
 ### Task Cards
 Display:** Each task card shows the task title and a shortened task description.
+<br>
 Draggable:** Tasks can be dragged between columns.
 
 ### Drag and Drop Functionality
 Drag-and-drop:** Move tasks between columns.
+<br>
 Placement:** Tasks can be dragged from one column to any other and placed in the correct position.
 
 ### Search Functionality
 Search bar:** Located at the top of the board.
+<br>
 Filter tasks:** Filter tasks in all columns based on search input.
+<br>
 Dynamic display:** Display matching tasks and hide non-matching tasks as the user types.
 
 ### Add New Tasks
 Floating button:** Allows creation of new tasks, restricted to the To Do column.
+<br>
 Task creation form:** Includes fields for task title and task description.
 
 ### Optional Components
 -Integration with external services.
+<br>
 -Storage/retrieval of information from a database (credentials required for review) or local storage.
 
 ## Clone the repository:
