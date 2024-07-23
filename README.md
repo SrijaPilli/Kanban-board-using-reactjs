@@ -112,10 +112,10 @@ This project is a Kanban board application designed to manage tasks across four 
 
 ### Kanban Board Layout
 - **Four columns representing task stages:**
-  - To Do
-  - In Progress
-  - Peer Review
-  - Done
+  -To Do
+  -In Progress
+  -Peer Review
+  -Done
 Task display:** Each column displays tasks relevant to that stage.
 
 ### Task Cards
@@ -136,8 +136,8 @@ Floating button:** Allows creation of new tasks, restricted to the To Do column.
 Task creation form:** Includes fields for task title and task description.
 
 ### Optional Components
-- Integration with external services.
-- Storage/retrieval of information from a database (credentials required for review) or local storage.
+-Integration with external services.
+-Storage/retrieval of information from a database (credentials required for review) or local storage.
 
 ## Clone the repository:
    ```bash
